@@ -11,7 +11,7 @@ public class Bird implements IDefend{
     }
 
     public void defend(Enemy attacker){
-        attacker.getDamage(20);
+        attacker.takeDamage(20);
     }
 
 }

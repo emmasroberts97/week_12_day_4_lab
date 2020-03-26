@@ -1,4 +1,8 @@
 package Enemy;
 
-public class FairyGodMother {
+public class FairyGodMother extends Enemy {
+
+    public FairyGodMother(int healthPoints){
+        super(healthPoints);
+    }
 }

@@ -11,6 +11,6 @@ public class Dragon implements IDefend{
     }
 
     public void defend(Enemy attacker){
-        attacker.getDamage(50);
+        attacker.takeDamage(50);
     }
 }

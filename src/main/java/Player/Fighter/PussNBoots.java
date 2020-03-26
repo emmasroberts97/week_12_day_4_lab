@@ -1,4 +1,10 @@
 package Player.Fighter;
 
-public class PussNBoots {
+import Weapons.IWeapon;
+
+public class PussNBoots extends Fighter{
+
+    public PussNBoots(String name, int healthPoints, IWeapon weapon){
+        super(name, healthPoints, weapon);
+    }
 }
