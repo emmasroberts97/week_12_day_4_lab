@@ -20,6 +20,7 @@ public class Room {
         this.exits = new ArrayList<Exit>();
         this.generateExits();
         this.treasure = new ArrayList<ITreasure>();
+        this.assignRoom();
 
     }
 
