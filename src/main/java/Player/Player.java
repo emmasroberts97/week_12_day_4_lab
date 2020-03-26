@@ -9,4 +9,24 @@ public abstract class Player {
         this.name = name;
         this.healthPoints = healthPoints;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getHealthPoints() {
+        return healthPoints;
+    }
+
+    public void setHealthPoints(int healthPoints) {
+        this.healthPoints = healthPoints;
+    }
+
+    public void getHealed(int healPoints){
+        setHealthPoints(healthPoints + healPoints);
+    }
 }

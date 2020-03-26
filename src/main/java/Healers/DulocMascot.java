@@ -9,7 +9,7 @@ public class DulocMascot {
     private ArrayList<IHeal> satchel;
 
     public DulocMascot(){
-        this.satchel = new ArrayList<IHeal>;
+        this.satchel = new ArrayList<IHeal>();
     }
 
     public void addHeal(IHeal remedy){

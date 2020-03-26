@@ -14,6 +14,14 @@ public abstract class Fighter extends Player{
     }
 
     public void attack(Enemy enemy){
-        enemy.takeDamage(weapon.getDamagePoints());
+        weapon.attack(enemy);
+    }
+
+    public void setWeapon(IWeapon weapon) {
+        this.weapon = weapon;
+    }
+
+    public IWeapon getWeapon() {
+        return weapon;
     }
 }
